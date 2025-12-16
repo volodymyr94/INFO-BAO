@@ -189,7 +189,7 @@
     margin-bottom: clamp( 2.5rem , 0.3873239436625rem  +  10.5633802817vw , 7.1875rem );
   }
   .about__body {
-    gap: clamp( 6.25e-8rem , -6.197183007925rem  +  30.9859153521vw , 13.75rem );
+    gap: clamp( 6.25e-8rem , -3.38028159946875rem  +  16.9014083099vw , 7.5rem );
   }
   .about__text p {
     margin-bottom: clamp( 0.9375rem , 0.3741197183125rem  +  2.8169014085vw , 2.1875rem );
@@ -251,7 +251,7 @@
     margin-bottom: 7.1875rem;
   }
   .about__body {
-    gap: 13.75rem;
+    gap: 7.5rem;
   }
   .about__text p {
     margin-bottom: 2.1875rem;
