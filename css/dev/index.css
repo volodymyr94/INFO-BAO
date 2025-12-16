@@ -100,7 +100,7 @@
     margin-bottom: 2.5rem;
   }
   .hero__body {
-    top: 2.5rem;
+    top: 6.25rem;
   }
   .hero__title {
     font-size: 2.125rem;
@@ -162,7 +162,7 @@
     margin-bottom: clamp( 2.5rem , 1.37323943661875rem  +  5.6338028169vw , 5rem );
   }
   .hero__body {
-    top: clamp( 2.5rem , -1.30281690140625rem  +  19.014084507vw , 10.9375rem );
+    top: clamp( 6.25rem , 2.5880281690125rem  +  18.3098591549vw , 14.375rem );
   }
   .hero__title {
     font-size: clamp( 2.125rem , 1.7588028169rem  +  1.8309859155vw , 2.9375rem );
@@ -224,7 +224,7 @@
     margin-bottom: 5rem;
   }
   .hero__body {
-    top: 10.9375rem;
+    top: 14.375rem;
   }
   .hero__title {
     font-size: 2.9375rem;
