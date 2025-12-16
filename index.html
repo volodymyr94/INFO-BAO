@@ -5,12 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>bao</title>
-		<link rel="modulepreload" crossorigin href="./js/common.min.js?v=1765905869973">
-		<script type="module" crossorigin="" src="./js/main.min.js?v=1765905869973"></script>
-		<script type="module" crossorigin="" src="./js/articl.min.js?v=1765905869973"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1765905869973">
-		<link rel="stylesheet" crossorigin="" href="./css/articl.min.css?v=1765905869973">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1765905869973">
+		<link rel="modulepreload" crossorigin href="./js/common.min.js?v=1765908039367">
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1765908039367"></script>
+		<script type="module" crossorigin="" src="./js/articl.min.js?v=1765908039367"></script>
+		<script type="module" crossorigin="" src="./js/parallax.min.js?v=1765908039367"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1765908039367">
+		<link rel="stylesheet" crossorigin="" href="./css/articl.min.css?v=1765908039367">
+		<link rel="stylesheet" crossorigin="" href="./css/parallax.min.css?v=1765908039367">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1765908039367">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -50,12 +52,12 @@
 				</div>
 			</header>
 			<main class="page">
-				<section class="hero">
+				<section data-fls-parallax-parent="" class="hero">
 					<picture>
 						<source media="(max-width: 600px)" srcset="./assets/img/Home-600.webp" type="image/webp">
 						<img class="hero__img" alt="img" src="./assets/img/Home.webp">
 					</picture>
-					<div class="hero__container">
+					<div data-fls-parallax="" class="hero__container">
 						<div class="hero__body">
 							<h1 class="hero__title">About Cosmetics</h1>
 							<div class="hero__text">
@@ -70,8 +72,8 @@
 						<div data-fls-title="" class="about__title title">
 							<h2>About Us</h2>
 						</div>
-						<div class="about__body">
-							<div class="about__content">
+						<div data-fls-parallax-parent="" class="about__body">
+							<div data-fls-parallax="" class="about__content">
 								<div class="about__text--lebel">Start new info</div>
 								<div class="about__text">
 									<p>
@@ -83,18 +85,18 @@
 								</div>
 							</div>
 							<picture>
-								<img class="about__img" alt="img" src="./assets/img/about.webp">
+								<img data-fls-parallax="" class="about__img" alt="img" src="./assets/img/about.webp">
 							</picture>
 						</div>
 						<button type="submit" class="about__button button button--write">More</button>
 					</div>
 				</section>
 				<section class="info">
-					<div class="info__container">
+					<div data-fls-parallax-parent="" class="info__container">
 						<div data-fls-title="" class="info__title title">
 							<h2>Cosmetics Info</h2>
 						</div>
-						<div class="info__items">
+						<div data-fls-parallax="" class="info__items">
 							<article data-fls-articl="" class="article">
 								<picture>
 									<img class="article__img" alt="img" src="./assets/img/main/Cream-Lancome.webp">
@@ -134,11 +136,11 @@
 					</div>
 				</section>
 				<section class="blog">
-					<div class="blog__container">
+					<div data-fls-parallax-parent="" class="blog__container">
 						<div data-fls-title="" class="blog__title title">
 							<h2>blogs</h2>
 						</div>
-						<div class="blog__items">
+						<div data-fls-parallax="" class="blog__items">
 							<article data-fls-articl="" class="article--blog">
 								<picture>
 									<img class="article--blog__img" alt="img" src="./assets/img/main/blog1.webp">
