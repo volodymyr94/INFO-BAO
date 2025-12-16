@@ -32,13 +32,19 @@
   display: flex;
   justify-content: space-between;
 }
+.about__content {
+  max-width: 50%;
+}
 .about__text--lebel {
   font-size: 1.875rem;
 }
 .about__text--lebel {
   margin-bottom: 2.1875rem;
 }
-.about__img {
+.about__imeg {
+  width: 50%;
+}
+.about__about__img {
   width: 100%;
 }
 .info__container {
@@ -70,6 +76,18 @@
   .about__body {
     flex-direction: column;
     gap: 1.25rem;
+    align-items: center;
+  }
+  .about__content {
+    width: 100%;
+    text-align: center;
+  }
+  .about__text p {
+    text-align: center;
+  }
+  .about__imeg {
+    text-align: center;
+    width: 100%;
   }
 }
 @media (max-width: 32.5em) {
