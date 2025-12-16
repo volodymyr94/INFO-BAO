@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>bao</title>
+		<link rel="modulepreload" crossorigin href="./js/common.min.js?v=1765897846463">
+		<script type="module" crossorigin="" src="./js/main.min.js?v=1765897846463"></script>
+		<script type="module" crossorigin="" src="./js/articl.min.js?v=1765897846463"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1765897846463">
+		<link rel="stylesheet" crossorigin="" href="./css/articl.min.css?v=1765897846463">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1765897846463">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<a href="index.html" class="header__logo">INFO BAO</a>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index.html" class="menu__link menu__link--active">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="about.html" class="menu__link">About Us</a>
+								</li>
+								<li class="menu__item">
+									<a href="blogs.html" class="menu__link">Blogs</a>
+								</li>
+								<li class="menu__item">
+									<a href="cosmetics.html" class="menu__link">Cosmetics Info</a>
+								</li>
+								<li class="menu__item">
+									<a href="contact.html" class="menu__link">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+				</div>
+			</header>
+			<main class="page">
+				<section class="hero">
+					<picture>
+						<source media="(max-width: 600px)" srcset="./assets/img/Home-600.webp" type="image/webp">
+						<img class="hero__img" alt="img" src="./assets/img/Home.webp">
+					</picture>
+					<div class="hero__container">
+						<div class="hero__body">
+							<h1 class="hero__title">About Cosmetics</h1>
+							<div class="hero__text">
+								<p>Learn more about other cosmetics with INFO BAO</p>
+							</div>
+							<button data-fls-button="" type="submit" class="hero__button button">More information</button>
+						</div>
+					</div>
+				</section>
+				<section class="about">
+					<div class="about__container">
+						<div data-fls-title="" class="about__title title">
+							<h2>About Us</h2>
+						</div>
+						<div class="about__body">
+							<div class="about__content">
+								<div class="about__text--lebel">Start new info</div>
+								<div class="about__text">
+									<p>
+										When you want buy new cosmetics you need know about this cosmetics. This site help you find cosmetics what you want. We can help you to get acquainted with cosmetics. And you can find information about skin problem for teenager, adult and elder woman. We tell you about face skin cosmetics, hair cosmetics, cosmetics for makeup. We have got three sections: Korean cosmetics, American cosmetics, Europian cosmetics.
+									</p>
+									<p>
+										We talk about brands: CHI(American hair cosmetics), Some by mi(Korean face cosmetics), La Roche-Posay(French face cosmetics) and other brands. We take cosmetics different price. Because not all can buy expensive cosmetics but all women want look beautiful. That's why we start this project! All women can buy cosmetics!
+									</p>
+								</div>
+							</div>
+							<picture>
+								<img class="about__img" alt="img" src="./assets/img/about.webp">
+							</picture>
+						</div>
+						<button type="submit" class="about__button button button--write">More</button>
+					</div>
+				</section>
+				<section class="info">
+					<div class="info__container">
+						<div data-fls-title="" class="info__title title">
+							<h2>Cosmetics Info</h2>
+						</div>
+						<div class="info__items">
+							<article data-fls-articl="" class="article">
+								<picture>
+									<img class="article__img" alt="img" src="./assets/img/main/Cream-Lancome.webp">
+								</picture>
+								<div class="article__text">Cosrx AC Collection Blemish Spot Clearing Serum</div>
+							</article>
+							<article data-fls-articl="" class="article">
+								<picture>
+									<img class="article__img" alt="img" src="./assets/img/main/Emulsion.webp">
+								</picture>
+								<div class="article__text">CHI Luxury Black Seed Oil Dry Oil</div>
+							</article>
+							<article data-fls-articl="" class="article">
+								<picture>
+									<img class="article__img" alt="img" src="./assets/img/main/Mask.webp">
+								</picture>
+								<div class="article__text">Heimish Bulgarian Rose Satin Cream</div>
+							</article>
+							<article data-fls-articl="" class="article">
+								<img class="article__img" src="./assets/img/main/Serum-La%20Roche.jpg" alt="img">
+								<div class="article__text">La Roche-Posay Hyalu B5 Serum</div>
+							</article>
+							<article data-fls-articl="" class="article">
+								<picture>
+									<img class="article__img" alt="img" src="./assets/img/main/Serum.webp">
+								</picture>
+								<div class="article__text">Lancome Genifique Youth Activating Day Cream</div>
+							</article>
+							<article data-fls-articl="" class="article">
+								<picture>
+									<img class="article__img" alt="img" src="./assets/img/main/cream.webp">
+								</picture>
+								<div class="article__text">Dermalogica Daily Skin Health Charcoal Rescue Masque</div>
+							</article>
+						</div>
+						<button type="submit" class="info__button button button--write">More</button>
+					</div>
+				</section>
+				<section class="blog">
+					<div class="blog__container">
+						<div data-fls-title="" class="blog__title title">
+							<h2>blogs</h2>
+						</div>
+						<div class="blog__items">
+							<article data-fls-articl="" class="article--blog">
+								<picture>
+									<img class="article--blog__img" alt="img" src="./assets/img/main/blog1.webp">
+								</picture>
+								<div class="article--blog__body">
+									<div class="article--blog__title">Acne</div>
+									<button type="submit" class="about__button button button--inharit">More</button>
+								</div>
+							</article>
+							<article data-fls-articl="" class="article--blog">
+								<picture>
+									<img class="article--blog__img" alt="img" src="./assets/img/main/blog2.webp">
+								</picture>
+								<div class="article--blog__body">
+									<div class="article--blog__title">Freckles</div>
+									<button type="submit" class="about__button button button--inharit">More</button>
+								</div>
+							</article>
+							<article data-fls-articl="" class="article--blog">
+								<picture>
+									<img class="article--blog__img" alt="img" src="./assets/img/main/blog3.webp">
+								</picture>
+								<div class="article--blog__body">
+									<div class="article--blog__title">Clay mask</div>
+									<button type="submit" class="about__button button button--inharit">More</button>
+								</div>
+							</article>
+						</div>
+						<button type="submit" class="blog__button button button--write">More</button>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__col">
+							<h5 class="footer__title">Company</h5>
+							<ul class="footer__list">
+								<li class="footer__link">
+									<a href="blogs.html">Information</a>
+								</li>
+								<li class="footer__link">
+									<a href="contact.html">Contact</a>
+								</li>
+								<li class="footer__link">
+									<a href="about.html">About</a>
+								</li>
+								<li class="footer__link">
+									<a href="about.html">News</a>
+								</li>
+								<ul></ul>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<h5 class="footer__title">Location</h5>
+							<ul class="footer__list">
+								<li class="footer__link">
+									<a href="https://www.google.com.ua/maps/place/%D0%9B%D0%BE%D1%81-%D0%90%D0%BD%D0%B4%D0%B6%D0%B5%D0%BB%D0%B5%D1%81,+%D0%9A%D0%B0%D0%BB%D1%96%D1%84%D0%BE%D1%80%D0%BD%D1%96%D1%8F,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@34.0206084,-118.7413909,87963m/data=!3m2!1e3!4b1!4m6!3m5!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0549076!4d-118.242643!16s%2Fm%2F030qb3t?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">South Los Angeles</a>
+								</li>
+								<li class="footer__link">
+									<a href="tel:+380981234567">Phone number: +1234567890</a>
+								</li>
+								<ul>
+									<div class="footer__text">We always ready speak with you!</div>
+								</ul>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<h5 class="footer__title">Get in touch</h5>
+							<ul class="footer__list">
+								<li class="footer__link">
+									<a href="mailto: infobao-contact@gmail.com">Email: infobao-contact@gmail.com</a>
+								</li>
+								<li class="footer__link">
+									<a href="https://www.instagram.com/" target="_blank">Instagtam</a>
+								</li>
+								<li class="footer__link">
+									<a href="https://www.facebook.com/?locale=uk_UA" target="_blank">Facebook</a>
+								</li>
+								<li class="footer__link">
+									<a href="https://x.com/?lang=uk" target="_blank">Twitter</a>
+								</li>
+								<ul></ul>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__logo">
+							<a href="index.html">INFO BAO</a>
+						</div>
+						<div class="footer__copy">2021 ©infobao. All Rights Reserved.</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
