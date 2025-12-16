@@ -38,6 +38,9 @@
 .about__text--lebel {
   margin-bottom: 2.1875rem;
 }
+.about__img {
+  width: 100%;
+}
 .info__container {
   border-bottom: 0.0625rem solid #837F7F;
   display: flex;
